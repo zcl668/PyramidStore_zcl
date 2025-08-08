@@ -117,7 +117,7 @@ class Spider(Spider):
         return True
 
     def cache_getkey(self, key):
-        return self.cache_path + '/' + key + ''
+        return self.cache_path + '/' + key + '.png'
 
 if __name__ == '__main__':
     pass
